@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Attachments | المرفقات</title>
+  <meta name="description" content="Attachments | المرفقات — Social links, certificates, and additional materials." />
+  <meta name="theme-color" content="#0b0f17" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Tajawal:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Top bar -->
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="brand__dot" aria-hidden="true"></span>
+        <span class="brand__text">Attachments | المرفقات</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#social">Social | التواصل</a>
+        <a href="#certs">Certificates | الشهادات</a>
+        <a href="#extras">Extras | ملحقات</a>
+      </nav>
+
+      <button class="menuBtn" id="menuBtn" aria-label="Menu">☰</button>
+    </div>
+
+    <div class="mobileNav" id="mobileNav" aria-hidden="true">
+      <a href="#social">Social | التواصل</a>
+      <a href="#certs">Certificates | الشهادات</a>
+      <a href="#extras">Extras | ملحقات</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="top">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__left reveal">
+          <p class="pill">
+            <i class="fa-solid fa-qrcode"></i>
+            QR Destination | رابط QR
+          </p>
+
+          <h1>
+            Professional Attachments
+            <span class="grad">| مرفقات احترافية</span>
+          </h1>
+
+          <p class="subtitle">
+            Supporting materials for my CV: Social & Professional links, Certificates, and additional work.
+            <span class="ar">| مواد داعمة للسيرة الذاتية: روابط حساباتي، شهاداتي، وملحقات إضافية.</span>
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn primary" href="mailto:you@email.com">
+              <i class="fa-solid fa-envelope"></i>
+              Contact | تواصل
+            </a>
+
+            <!-- اختياري: إذا عندك CV.pdf داخل assets -->
+            <a class="btn ghost" href="assets/CV.pdf" target="_blank" rel="noopener">
+              <i class="fa-solid fa-file-arrow-down"></i>
+              CV PDF | السيرة PDF
+            </a>
+          </div>
+
+          <div class="chips">
+            <span class="chip"><i class="fa-solid fa-user"></i> Omar Al-Madhagi </span>
+            <span class="chip"><i class="fa-solid fa-link"></i> One Page | صفحة واحدة</span>
+            <span class="chip"><i class="fa-solid fa-shield-heart"></i> Clean & Official | رسمي</span>
+          </div>
+        </div>
+
+        <div class="hero__right reveal">
+          <div class="glassCard">
+            <div class="idRow">
+              <div class="avatar">
+                <img src="assets/profile.jpg" alt="Profile" onerror="this.style.display='none'; this.parentElement.classList.add('avatar--fallback')" />
+                <div class="avatarFallback">OA</div>
+              </div>
+              <div class="idText">
+                <h2>Omar Ahmed Awadh Saleh Al-Madhagi</h2>
+                <p class="muted">Attachments Page | صفحة المرفقات</p>
+              </div>
+            </div>
+
+            <div class="quick">
+              <a class="q" href="https://orcid.org/0009-0004-5122-938X" target="_blank" rel="noopener">
+                <i class="fa-solid fa-id-badge"></i> ORCID
+              </a>
+              <a class="q" href="https://researchgate.net/profile/Omar-Al-Madhagi" target="_blank" rel="noopener">
+                <i class="fa-brands fa-researchgate"></i> ResearchGate
+              </a>
+              <a class="q" href="https://youtube.com/@qrdr" target="_blank" rel="noopener">
+                <i class="fa-brands fa-youtube"></i> YouTube
+              </a>
+            </div>
+
+            <p class="tiny muted">
+              Tip | ملاحظة: اضغط على أي بطاقة لفتح الرابط/الملف.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Social -->
+    <section id="social" class="section">
+      <div class="container">
+        <div class="sectionHead reveal">
+          <h3>Social & Professional Links | التواصل الاجتماعي والمهني</h3>
+          <p class="muted">
+            Official profiles |حساباتي الرسمية
+          </p>
+        </div>
+
+        <div class="grid reveal">
+          <a class="card linkCard" href="https://www.linkedin.com/in/omar-al-madhagi-86a761139" target="_blank" rel="noopener">
+            <div class="lcIcon"><i class="fa-brands fa-linkedin"></i></div>
+            <div class="lcText">
+              <div class="lcTitle">LinkedIn | لينكدإن</div>
+              <div class="lcSub">Professional profile | ملف مهني</div>
+            </div>
+            <div class="lcGo"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+
+          <a class="card linkCard" href="https://researchgate.net/profile/Omar-Al-Madhagi" target="_blank" rel="noopener">
+            <div class="lcIcon"><i class="fa-brands fa-researchgate"></i></div>
+            <div class="lcText">
+              <div class="lcTitle">ResearchGate | ريسرش غيت</div>
+              <div class="lcSub">Research profile | ملف بحثي</div>
+            </div>
+            <div class="lcGo"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+
+          <a class="card linkCard" href="https://github.com/omayqr" target="_blank" rel="noopener">
+            <div class="lcIcon"><i class="fa-brands fa-github"></i></div>
+            <div class="lcText">
+              <div class="lcTitle">GitHub</div>
+              <div class="lcSub">Code & projects | الأكواد والمشاريع</div>
+            </div>
+            <div class="lcGo"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+
+          <a class="card linkCard" href="https://alawlaqy.blogspot.com" target="_blank" rel="noopener">
+            <div class="lcIcon"><i class="fa-solid fa-globe"></i></div>
+            <div class="lcText">
+              <div class="lcTitle">Website | الموقع</div>
+              <div class="lcSub">Blog / portfolio | مدونة / أعمال</div>
+            </div>
+            <div class="lcGo"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+
+          <a class="card linkCard" href="https://www.facebook.com/Omay4qr" target="_blank" rel="noopener">
+            <div class="lcIcon"><i class="fa-brands fa-facebook"></i></div>
+            <div class="lcText">
+              <div class="lcTitle">Facebook | فيسبوك</div>
+              <div class="lcSub">Public page/profile | حسابي</div>
+            </div>
+            <div class="lcGo"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+
+          <a class="card linkCard" href="https://t.me/omay4qr" target="_blank" rel="noopener">
+            <div class="lcIcon"><i class="fa-brands fa-telegram"></i></div>
+            <div class="lcText">
+              <div class="lcTitle">Telegram | تيليجرام</div>
+              <div class="lcSub">Channel / contact | تواصل</div>
+            </div>
+            <div class="lcGo"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+
+          <a class="card linkCard" href="https://www.instagram.com/omar4qrr" target="_blank" rel="noopener">
+            <div class="lcIcon"><i class="fa-brands fa-instagram"></i></div>
+            <div class="lcText">
+              <div class="lcTitle">Instagram | انستجرام</div>
+              <div class="lcSub">Content & updates | محتوى</div>
+            </div>
+            <div class="lcGo"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+
+          <a class="card linkCard" href="https://youtube.com/@qrdr" target="_blank" rel="noopener">
+            <div class="lcIcon"><i class="fa-brands fa-youtube"></i></div>
+            <div class="lcText">
+              <div class="lcTitle">YouTube | يوتيوب</div>
+              <div class="lcSub">Content creator | صانع محتوى</div>
+            </div>
+            <div class="lcGo"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+
+          <!-- WhatsApp: أفضل رابط يعمل للجميع -->
+          <a class="card linkCard" href="https://wa.me/967777908359" target="_blank" rel="noopener">
+            <div class="lcIcon"><i class="fa-brands fa-whatsapp"></i></div>
+            <div class="lcText">
+              <div class="lcTitle">WhatsApp | واتساب</div>
+              <div class="lcSub">Direct message | رسالة مباشرة</div>
+            </div>
+            <div class="lcGo"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+
+          <a class="card linkCard" href="https://orcid.org/0009-0004-5122-938X" target="_blank" rel="noopener">
+            <div class="lcIcon"><i class="fa-solid fa-id-badge"></i></div>
+            <div class="lcText">
+              <div class="lcTitle">ORCID | أوركيد</div>
+              <div class="lcSub">Research ID | رقم باحث</div>
+            </div>
+            <div class="lcGo"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Certificates -->
+    <section id="certs" class="section">
+      <div class="container">
+        <div class="sectionHead reveal">
+          <h3>Certificates | الشهادات الحاصل عليها</h3>
+          <p class="muted">Click to preview (opens a gallery) | اضغط للعرض (يفتح معرض)</p>
+        </div>
+
+        <div class="gridCert reveal">
+          <!-- شهادة 1 -->
+          <button class="certItem card" type="button"
+            data-full="assets/certs/ivpn-hiv-attendance-2024.jpg"
+            data-title="IVPN Network — HIV Awareness | IVPN — التوعية بفيروس HIV"
+            data-sub="Certificate of Attendance • Jan 31, 2024 | شهادة حضور • 31 يناير 2024">
+            <div class="thumbWrap">
+              <img src="assets/certs/ivpn-hiv-attendance-2024.jpg" alt="IVPN HIV Certificate">
+            </div>
+            <div class="certText">
+              <div class="certTitle">IVPN — HIV Awareness | IVPN — التوعية بـ HIV</div>
+              <div class="certSub">Attendance • 2024 | حضور • 2024</div>
+            </div>
+          </button>
+
+          <!-- شهادة 2 -->
+          <button class="certItem card" type="button"
+            data-full="assets/certs/globalsurg-gecko-collaborator-2023.jpg"
+            data-title="GlobalSurg GECKO Study | دراسة GECKO - GlobalSurg"
+            data-sub="Collaborator • Oct 2023 | متعاون • أكتوبر 2023">
+            <div class="thumbWrap">
+              <img src="assets/certs/globalsurg-gecko-collaborator-2023.jpg" alt="GlobalSurg GECKO">
+            </div>
+            <div class="certText">
+              <div class="certTitle">GlobalSurg — GECKO | GlobalSurg — جيكو</div>
+              <div class="certSub">Research Collaboration • 2023 | تعاون بحثي • 2023</div>
+            </div>
+          </button>
+
+          <!-- شهادة 3 -->
+          <button class="certItem card" type="button"
+            data-full="assets/certs/creativity-house-ai-pm-2025.jpg"
+            data-title="AI Project Management | إدارة المشاريع بالذكاء الاصطناعي"
+            data-sub="Creativity House • Jan 26, 2025 | كرييتيفتي هاوس • 26 يناير 2025">
+            <div class="thumbWrap">
+              <img src="assets/certs/creativity-house-ai-pm-2025.jpg" alt="AI PM">
+            </div>
+            <div class="certText">
+              <div class="certTitle">AI Project Management | إدارة مشاريع بالـ AI</div>
+              <div class="certSub">Participation • 2025 | مشاركة • 2025</div>
+            </div>
+          </button>
+
+          <!-- شهادة 4 -->
+          <button class="certItem card" type="button"
+            data-full="assets/certs/pim-bls-nhcps-2023.jpg"
+            data-title="Basic Life Support (BLS) | الإنعاش القلبي الرئوي (BLS)"
+            data-sub="PIM • Valid Jan 2021–Jan 2023 | صالح 2021–2023">
+            <div class="thumbWrap">
+              <img src="assets/certs/pim-bls-nhcps-2023.jpg" alt="BLS">
+            </div>
+            <div class="certText">
+              <div class="certTitle">BLS | الإنعاش القلبي الرئوي</div>
+              <div class="certSub">Statement • 2023 | إثبات • 2023</div>
+            </div>
+          </button>
+
+          <!-- شهادة 5 -->
+          <button class="certItem card" type="button"
+            data-full="assets/certs/ibm-spss-statistics-expert-2023.jpg"
+            data-title="IBM SPSS Statistics Expert | خبير IBM SPSS للإحصاء"
+            data-sub="IMTF Institute • 2023 | معهد IMTF • 2023">
+            <div class="thumbWrap">
+              <img src="assets/certs/ibm-spss-statistics-expert-2023.jpg" alt="IBM SPSS">
+            </div>
+            <div class="certText">
+              <div class="certTitle">IBM SPSS Expert | خبير IBM SPSS</div>
+              <div class="certSub">Professional Certificate • 2023 | شهادة احترافية • 2023</div>
+            </div>
+          </button>
+        </div>
+
+        <div class="hint reveal">
+          <i class="fa-regular fa-lightbulb"></i>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Additional Attachments -->
+    <section id="extras" class="section">
+      <div class="container">
+        <div class="sectionHead reveal">
+          <h3>Additional Attachments | ملحقات إضافية</h3>
+          <p class="muted">Apps, bots, memberships | تطبيقات، بوتات، عضويات</p>
+        </div>
+
+        <div class="grid reveal">
+          <a class="card extraCard" href="https://www.amazon.com/AL-Awlaqi-Omay4qr/dp/B0DFT1DJNS" target="_blank" rel="noopener">
+            <div class="exIcon"><i class="fa-solid fa-mobile-screen"></i></div>
+            <div class="exText">
+              <div class="exTitle">Omay4qr App | تطبيق Omay4qr</div>
+              <div class="exSub">Amazon Appstore | متجر أمازون</div>
+            </div>
+            <div class="exGo"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+
+          <a class="card extraCard" href="https://t.me/Omay4qr_Bot" target="_blank" rel="noopener">
+            <div class="exIcon"><i class="fa-brands fa-telegram"></i></div>
+            <div class="exText">
+              <div class="exTitle">Omay4qr Telegram Bot | بوت تيليجرام</div>
+              <div class="exSub">Educational purpose | تعليمي</div>
+            </div>
+            <div class="exGo"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+
+          <a class="card extraCard" href="https://youtube.com/@qrdr" target="_blank" rel="noopener">
+            <div class="exIcon"><i class="fa-brands fa-youtube"></i></div>
+            <div class="exText">
+              <div class="exTitle">Content Creator | صانع محتوى</div>
+              <div class="exSub">Medical & Tech simplified | طبي وتقني مبسط</div>
+            </div>
+            <div class="exGo"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+
+          <a class="card extraCard" href="https://www.facebook.com/profile.php?id=100093179737099" target="_blank" rel="noopener">
+            <div class="exIcon"><i class="fa-solid fa-newspaper"></i></div>
+            <div class="exText">
+              <div class="exTitle">JMSA Journal Membership | عضوية مجلة JMSA</div>
+              <div class="exSub">Member | عضو</div>
+            </div>
+            <div class="exGo"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+
+          <a class="card extraCard" href="https://www.facebook.com/share/1EQBC6gEBG/" target="_blank" rel="noopener">
+            <div class="exIcon"><i class="fa-solid fa-ribbon"></i></div>
+            <div class="exText">
+              <div class="exTitle">Cancer Supporters Team | فريق دعم مرضى السرطان</div>
+              <div class="exSub">Core member | عضو أساسي</div>
+            </div>
+            <div class="exGo"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="muted">© <span id="year"></span> Omar Al-Madhagi</div>
+        <a class="muted" href="#top">Back to top | للأعلى ↑</a>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Lightbox (certificate viewer) -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lbBack" id="lbBack"></div>
+    <div class="lbCard" role="dialog" aria-modal="true">
+      <div class="lbTop">
+        <div>
+          <div class="lbTitle" id="lbTitle">Title</div>
+          <div class="lbSub muted" id="lbSub">Subtitle</div>
+        </div>
+        <button class="lbClose" id="lbClose" aria-label="Close">✕</button>
+      </div>
+      <div class="lbBody">
+        <img id="lbImg" alt="Certificate Preview" />
+      </div>
+      <div class="lbBottom">
+        <a class="btn ghost" id="lbOpen" target="_blank" rel="noopener">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          Open file | فتح الملف
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
